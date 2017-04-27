@@ -15,7 +15,14 @@ public abstract class Trabajador {
     public Trabajador(int id) {
         this.id = id;
     }
+
+    
+    public int getId() {
+        return id;
+    }
+    
     
     public abstract double calcularSalario(); 
+    
     public abstract String listarInformacion();
 }

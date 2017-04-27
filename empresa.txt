@@ -1,0 +1,1 @@
+A,2000,Juan Camilo,100000.0,P4,Diana Vanessa,90000.0,L,7,Sebastian Perez,300000.01,7,

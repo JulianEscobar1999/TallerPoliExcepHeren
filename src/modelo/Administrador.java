@@ -15,8 +15,18 @@ public class Administrador extends Empleado{
 
     public Administrador(String nombre, int id)
         throws ExcepcionNombre, ExcepcionSalario {
-        super(nombre, 100, id);
+        super(nombre, 100000, id);
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+    
+    
     
     @Override
     public double calcularSalario() {

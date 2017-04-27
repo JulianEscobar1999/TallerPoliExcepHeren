@@ -20,7 +20,11 @@ public class Empresa {
     public void agregarTrabajador(Trabajador t){
       this.trabajadores.add(t);
     }
-    
+
+    public ArrayList<Trabajador> getTrabajadores() {
+        return trabajadores;
+    }
+
     public double calcularSalarioTotal(){
        double salarioTotal = 0;
         for (Trabajador trabajador : trabajadores) {

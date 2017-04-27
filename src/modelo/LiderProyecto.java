@@ -27,6 +27,24 @@ public class LiderProyecto extends Programador{
     public void agregarProgramador(Programador p){
       this.programadores.add(p);
     }
+
+    public ArrayList<Programador> getProgramadores() {
+        return programadores;
+    }
+
+    public String getLenguaje() {
+        return lenguaje;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+    
+    
     
     @Override
     public double calcularSalario(){
